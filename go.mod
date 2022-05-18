@@ -3,8 +3,11 @@ module github.com/Azure/sonic-telemetry
 go 1.12
 
 require (
+	github.com/AlekSi/gocov-xml v1.0.0 // indirect
 	github.com/Azure/sonic-mgmt-common v0.0.0-00010101000000-000000000000
 	github.com/Workiva/go-datastructures v1.0.50
+	github.com/axw/gocov v1.1.0 // indirect
+	github.com/bgentry/speakeasy v0.1.0 // indirect
 	github.com/c9s/goprocinfo v0.0.0-20191125144613-4acdd056c72d
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-redis/redis v6.15.6+incompatible
@@ -21,7 +24,6 @@ require (
 	github.com/openconfig/gnmi v0.0.0-20200617225440-d2b4e6a45802
 	github.com/openconfig/gnoi v0.0.0-20201210212451-209899112bb7
 	github.com/openconfig/ygot v0.7.1
-	github.com/stretchr/testify v1.4.0 // indirect
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/net v0.0.0-20201110031124-69a78807bb2b
 	google.golang.org/grpc v1.33.2
@@ -29,4 +31,5 @@ require (
 )
 
 replace github.com/Azure/sonic-mgmt-common => ../sonic-mgmt-common
+
 replace github.com/openconfig/gnoi => github.com/openconfig/gnoi v0.0.0-20201210212451-209899112bb7
